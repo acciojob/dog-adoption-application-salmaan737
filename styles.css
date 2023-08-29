@@ -1,2 +1,84 @@
 
 /* Your CSS Code here. */
+/* Reset some default styles */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the form and add some padding */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style the labels and input fields */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="checkbox"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    height: auto;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Change button color on hover */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style checkbox */
+input[type="checkbox"] {
+    width: auto;
+    margin-top: 5px;
+}
+
+/* Add some spacing between checkbox and label */
+label[for="livedWithDog"] {
+    margin-top: 10px;
+}
+
+/* Add space between multi-select options */
+select[multiple] option {
+    padding: 5px;
+}
+
+/* Apply hover effect to multi-select options */
+select[multiple] option:hover {
+    background-color: #f0f0f0;
+}
